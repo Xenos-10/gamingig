@@ -1,12 +1,58 @@
 <video autoplay muted loop id="myVideo">
-    <source src="videoplayback (1).webm" type="video/webm">
+    <source src="background.mp4" type="video/mp4">
 </video>
+
+<h1>
+    404
+</h1>
+<h3>
+    Page not found!<br>
+    The page you are looking for doesnt exist or has been moveed.<br>
+    Please check the URL or return to the <a href="index.html">home page</a>.
+</h3>
 <style>
-#myVideo{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
+    body {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    #myVideo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+
+    h1 {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 200px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    h3 {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 20px;
+        color: wheat;
+        font-family: sans-serif;
+    }
+
+    a {
+        color: aquamarine;
+    }
+
+    a;
+
+    :hover {
+        color: yellow;
+        text-decoration: none;
+    }
 </style>
