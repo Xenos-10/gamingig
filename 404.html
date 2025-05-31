@@ -19,14 +19,11 @@
         }
 
         #myVideo {
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            left: 0;
+            position: absolute;
             right: 0;
-            min-height: 100%;
+            bottom: 0;
             min-width: 100%;
-            ;
+            min-height: 100%;
             z-index: -1;
         }
 
@@ -65,10 +62,10 @@
 
 
 <body>
-    <video autoplay="true" loop preload="auto" id="myVideo">
-        <source src="bg.3e78e80.mp4" type="video/mp4">
+    <video autoplay muted loop id="myVideo">
+        <source src="background.mp4" type="video/mp4">
     </video>
-    <audio autoplay="autoplay" loop="loop">
+    <audio autoplay loop>
         <source src="background1.mp3" type="audio/mp3">
     </audio>
 
